@@ -190,6 +190,65 @@ footer a{
   button:hover {
     background-color: var(--colore-primario);
   }
+  .body2 {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.presentazione {
+  display: flex;
+  flex-direction: column;  /* Dispone gli elementi in verticale */
+  align-items: center;  /* Centra il testo */
+  text-align: center;  /* Allinea il testo */
+  padding: 50px 20px;  /* Spazio sopra e sotto */
+}
+
+.titolo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.descrizione {
+  max-width: 800px;
+  font-size: 18px;
+}
+
+.contenuto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+section {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
   @media (max-width: 768px) {
 
     .navbar {
