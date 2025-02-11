@@ -48,20 +48,16 @@ body{
     margin-right: 100px;
 }
 
-header{
-    background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
-    width: 100%;
-    height:600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-   
-    
+header {
+  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
 }
-
 .img {
     display: flex;
     justify-content: flex-end;
@@ -85,27 +81,30 @@ box-shadow:white  0px 0px 20px;
     gap: 50px;
     
 }
-
+main{
+  flex: 1;
+}
 .icone{
     display: flex;
     justify-content: center;
    gap: 20px;
 }
 
-footer{
-    background-color: var(--colore-navbar); 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    margin-top: 10%;
+footer {
+  background-color: var(--colore-navbar); 
+  color: #fff; 
+  padding: 25px 0; 
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
-footer a{
-    color: #fff;
-     margin: 0 10px;
-     text-decoration: none;
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
 }
     
 .titolo{
@@ -197,7 +196,7 @@ footer a{
     text-align: center;
 }
 
-.presentazione {
+.presentazione2 {
   display: flex;
   flex-direction: column;  /* Dispone gli elementi in verticale */
   align-items: center;  /* Centra il testo */
@@ -205,29 +204,29 @@ footer a{
   padding: 50px 20px;  /* Spazio sopra e sotto */
 }
 
-.titolo {
+.titolo2 {
   font-size: 32px;
   font-weight: bold;
   color: #e74c3c;
   margin-bottom: 10px;
 }
 
-.descrizione {
+.descrizione2 {
   max-width: 800px;
   font-size: 18px;
 }
 
-.contenuto {
+.contenuto2{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 
-section {
+.section2 {
     width: 100%;
     text-align: left;
     padding: 20px;
@@ -252,11 +251,11 @@ section {
   @media (max-width: 768px) {
 
     .navbar {
-        position: static; 
+        position: relative; 
         opacity: 1; 
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 30px;
       
     }
 
