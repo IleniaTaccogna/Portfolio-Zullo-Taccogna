@@ -8,11 +8,13 @@
 }
 body{
   margin: 0; 
+  overflow-x: hidden; 
+  
 }
 .navbar {
   background: var(--colore-navbar);
   opacity: 0.9;
-  width: 100%;
+  width: 100% ;
   position: fixed;
   top: 0;
   display: flex; 
@@ -48,15 +50,17 @@ body{
     margin-left: 10px;
     margin-right: 70px;
 }
+.logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
 
 header {
   background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
-  width: 100%;
-  min-height: 100vh; 
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding: 20px;
+  width: 100%;  
+  min-height: 80vh;
+  padding: 15px;
   margin: 0 auto;
 }
 .img {
@@ -64,7 +68,8 @@ header {
     justify-content: flex-end;
     margin-right: 200px;
     margin-top: 100px;
-    height: 400px;
+    height: 450px;
+
 }
 .myimg{
 border-radius: 50px;
@@ -72,7 +77,6 @@ box-shadow:white  0px 0px 20px;
 }
 .imgBiografia{
     border-radius: 50%;
-
 }
 .presentazione {
     color: var(--colore-testo);
@@ -89,8 +93,6 @@ main{
      display: flex;
      justify-content:space-around;  
      margin-top: 30px;
-     
-  
 }
 
 footer {
@@ -98,10 +100,10 @@ footer {
   color: #fff; 
   padding: 5px 0; 
   text-align: center;
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 100% ;
   bottom: 0;
-}
+} 
 
 
 footer a {
@@ -192,7 +194,22 @@ footer a {
   button:hover {
     background-color: var(--colore-primario);
   }
+  
+   .testo-presentazione h1{
+    font-size:40px;
+   }
 
+   .testo-presentazione h2{
+    font-size:42px;
+   }
+   .testo-presentazione h3{
+    font-size:40px;
+   }
+   .testo-presentazione span{
+    color:#bf504f ;
+     font-weight: bold;
+      font-size:60px;
+   }
 .presentazione2 {
   display: flex;
   align-items: center;    
@@ -288,14 +305,15 @@ footer a {
 
     .img {
         margin-right: 0; 
-        margin-top: 20px; 
-        width: 80%; 
-        justify-content: center;
+        width: 100%; 
+        height: 100%;
+          flex-direction: column; 
+          align-items: center;
     }
 
     .myimg {
-        width: 200px; 
-        height: 200px; 
+        width: 60%; 
+        height: 60%; 
     }
 
    .footer a { 
@@ -304,6 +322,7 @@ footer a {
 
     .footer{
       padding: 30px;
+      position: relative;
     }
 
     
