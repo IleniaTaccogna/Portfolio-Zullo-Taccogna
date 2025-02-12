@@ -70,7 +70,7 @@ header {
   margin: 0;
 }
 
-.presentazione {
+.introduzione {
   color: var(--colore-testo);
   display: flex;
   justify-content: space-between;
@@ -94,20 +94,20 @@ header {
 .icone {
   display: flex;
   justify-content: center;
-  
+
 }
 
-.lato-thin{
-  font-family: "Lato",serif;
+.lato-thin {
+  font-family: "Lato", serif;
 }
 
-.lato-thin h1{
+.lato-thin h1 {
   font-size: 35px;
 }
 
 .lato-thin h2 {
   font-size: 42px;
-} 
+}
 
 .lato-thin h3 {
   font-size: 40px;
@@ -119,19 +119,19 @@ header {
   font-size: 55px;
 }
 
-.logoCA{
+.logoCA {
   height: 45px;
   width: 200px;
   float: left;
   margin-bottom: -10px;
-  top:50px;
+  top: 50px;
   margin-left: 10px;
 }
 
-.logoIFOA{
+.logoIFOA {
   height: 150px;
   width: 150px;
-  float: right; 
+  float: right;
   margin-top: -70px;
 }
 

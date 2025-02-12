@@ -29,7 +29,7 @@
         padding: 30px;
     }
 
-    .presentazione {
+    .introduzione {
         flex-direction: column;
         align-items: center;
         gap: 30px;
@@ -57,7 +57,6 @@
         position: relative;
     }
 
-
     .container-form {
         width: 90%;
         margin: 10% auto;
@@ -73,7 +72,31 @@
         align-items: center;
         justify-content: center;
         gap: 40px;
-
         padding: 20px;
+    }
+
+    .section-chiSiamo {
+        flex-direction: column;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .container-fototessera-zullo,
+    .container-fototessera-taccogna {
+        margin: 0;
+    }
+
+    .fototessera {
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .titolo {
+        font-size: 40px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin-top: 50px;
     }
 }
