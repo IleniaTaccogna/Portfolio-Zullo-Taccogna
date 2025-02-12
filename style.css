@@ -93,26 +93,46 @@ header {
 
 .icone {
   display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
+  justify-content: center;
+  
 }
 
-.testo-presentazione h1 {
-  font-size: 40px;
+.lato-thin{
+  font-family: "Lato",serif;
 }
 
-.testo-presentazione h2 {
+.lato-thin h1{
+  font-size: 35px;
+}
+
+.lato-thin h2 {
   font-size: 42px;
-}
+} 
 
-.testo-presentazione h3 {
+.lato-thin h3 {
   font-size: 40px;
 }
 
-.testo-presentazione span {
+.lato-thin span {
   color: #bf504f;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 55px;
+}
+
+.logoCA{
+  height: 45px;
+  width: 200px;
+  float: left;
+  margin-bottom: -10px;
+  top:50px;
+  margin-left: 10px;
+}
+
+.logoIFOA{
+  height: 150px;
+  width: 150px;
+  float: right; 
+  margin-top: -70px;
 }
 
 footer {

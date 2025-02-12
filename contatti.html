@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body >
@@ -17,37 +20,41 @@
     <div class="navbarLinks">
       <a href="homePage.html">Homepage</a>
       <a href="chiSiamo.html">Chi Siamo</a>
-        <a href="progetti.html">Progetti</a>
+        <a href="progetti.html">Progetti</a>  
         <a href="contatti.html">Contatti</a>
     </div>
 </nav>
+<header>  
+  <h1>Contattaci!</h1>
     <form class="container-form">
+      <div class="form-group">
+        <label for="exampleInputName">Inserisci il Nome</label>
+        <input type="text" class="form-control"  placeholder="Inserisci il nome">
+      </div>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control"  placeholder="Enter email">
+          <label for="exampleInputEmail1">Inserisci l'email</label>
+          <input type="email" class="form-control"  placeholder="Inserisci l'email">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control"  placeholder="Password">
+          <label for="exampleMessage">Inserisci il tuo Messaggio</label>
+          <textarea></textarea>
         </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="alert('Messaggio inviato!')">Invia</button>
       </form>
-
-      <footer class="footer">
-        <p>&copy; 2025 Code Architects srl. Tutti i diritti riservati.</p>
-        <p><a href="mailto:info@codearchitects.com">info@codearchitects.com</a></p>
-        <div style="margin: 10px 0;">
-            <a href="https://www.facebook.com/CodeArchitectsItalia/">Facebook</a>
-            <a href="https://www.instagram.com/codearchitectsitalia/#">Instagram</a>
-            <a href="https://it.linkedin.com/company/code-architects">LinkedIn</a>
-        </div>
-        <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service"
-                style="color: #fff; text-decoration: none;">Termini di Servizio</a></p>
-</footer>
+    </header>
+    <footer class="footer">
+      <p>&copy; 2025 Code Architects srl. Tutti i diritti riservati.</p>
+      <p><a href="mailto:info@codearchitects.com">info@codearchitects.com</a></p>
+      <img src="assets/MoMaVet_IFOA-scaled-removebg-preview.png" class="logoIFOA"/>
+      <img src="assets/logo_code-architects_positive.png" class="logoCA"/> 
+      <div class="icone"> 
+          <a href="https://www.facebook.com/CodeArchitectsItalia/"><i class="fa-brands fa-facebook fa-xl" style="color: #bf504f;"></i></a>
+          <a href="https://it.linkedin.com/company/code-architects"><i class="fa-brands fa-linkedin fa-xl" style="color:#bf504f;"></i></a>
+          <a href="https://www.instagram.com/codearchitectsitalia/#"><i class="fa-brands fa-instagram fa-xl" style="color: #bf504f;"></i></a>
+      </div>
+      <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service"
+              style="color: #fff; text-decoration: none;">Termini di Servizio</a></p>
+  </footer>   
 
     
 </body>
