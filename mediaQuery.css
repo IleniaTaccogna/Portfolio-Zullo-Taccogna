@@ -115,10 +115,13 @@
     .section-chiSiamo {
         flex-direction: column;
         font-size: 18px;
-        margin-top: 0;
     }
 
-    .container-fototessera-zullo,
+    .container-fototessera-zullo {
+        margin: 0;
+        margin-top: -100px;
+    }
+
     .container-fototessera-taccogna {
         margin: 0;
     }
@@ -126,14 +129,27 @@
     .fototessera {
         width: 80%;
         max-width: 250px;
+        margin-bottom: 50px;
+        margin-left: 30px;
     }
 
     .titolo {
         font-size: 40px;
+        margin-left: 8px;
     }
 
     header h1 {
         font-size: 40px;
         margin-top: 50px;
+    }
+
+    .lato-thin {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section-chiSiamo {
+        width: 100%;
     }
 }

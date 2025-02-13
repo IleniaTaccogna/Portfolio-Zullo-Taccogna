@@ -12,12 +12,12 @@
     height: 470px;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-top: 100px;
-    color: #bf504f; 
+    color: #bf504f;
     font-family: "Lato", serif;
-    font-size: 50px; 
+    font-size: 50px;
 }
 
 .form-group {
@@ -48,12 +48,12 @@ input[type="text"]:focus {
     outline: none;
 }
 
-textarea{
+textarea {
     width: 100%;
     padding: 0.8rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .form-text {
