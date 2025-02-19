@@ -1,8 +1,9 @@
-.titolo {
-  color: #bf504f;
-  font-family: "Lato", serif;
-  font-size: 50px;
-  margin-left: 3%;
+article {
+  background: linear-gradient(to bottom, #1E292E, #30323F, #293238);
+  width: 100%;
+  min-height: 95vh;
+  padding: 15px;
+  margin: 0;
 }
 
 .presentazione {
@@ -22,6 +23,13 @@
   font-size: 22px;
   font-family: "Lato", serif;
   width: 80%;
+}
+
+.titolo {
+  color: #bf504f;
+  font-family: "Lato", serif;
+  font-size: 50px;
+  margin-left: 3%;
 }
 
 .container-fototessera-zullo {
@@ -45,7 +53,7 @@
   box-shadow: white 0px 0px 20px;
 }
 
-header h1 {
+article h1 {
   margin-top: 100px;
   font-size: 60px;
   color: #bf504f;

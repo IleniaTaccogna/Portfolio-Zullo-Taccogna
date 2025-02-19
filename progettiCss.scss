@@ -1,6 +1,17 @@
 $colore-testo: white;
 $colore-primario: #bf504f;
-$font-testo:"Lato", serif;
+$font-testo: "Lato", serif;
+$colore-header1: #1E292E;
+$colore-header2: #30323F;
+$colore-header3: #1E2931;
+
+section {
+  background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+  width: 100%;
+  min-height: 95vh;
+  padding: 15px;
+  margin: 0;
+}
 
 .presentazione2 {
   display: flex;
@@ -48,7 +59,7 @@ $font-testo:"Lato", serif;
 }
 
 .btn {
-  background-color:$colore-primario;
+  background-color: $colore-primario;
   font-family: $font-testo;
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
@@ -60,8 +71,8 @@ $font-testo:"Lato", serif;
   transition: background-color 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    background:$colore-testo;
-    border:$colore-primario 2px solid;
+    background: $colore-testo;
+    border: $colore-primario 2px solid;
     transform: scale(1.05);
   }
 }

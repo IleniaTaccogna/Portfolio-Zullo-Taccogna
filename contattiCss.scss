@@ -6,6 +6,14 @@ $colore-testo: white;
 $colore-primario: #bf504f;
 $font-testo:"Lato", serif;
 
+section {
+    background: linear-gradient(to bottom, $colore-header1, $colore-header2, #293238);
+    width: 100%;
+    min-height: 95vh;
+    padding: 15px;
+    margin: 0;
+  }
+
 .container-form {
     background-color: #fff;
     padding: 2rem;

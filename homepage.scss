@@ -4,7 +4,7 @@ $colore-header2: #30323F;
 $colore-header3: #1E2931;
 $colore-testo: white;
 $colore-primario: #bf504f;
-$font-testo:"Lato", serif;
+$font-testo: "Lato", serif;
 
 
 * {
@@ -96,7 +96,7 @@ header {
 }
 
 .lato-thin {
-  font-family:$font-testo;
+  font-family: $font-testo;
 
   h1 {
     font-size: 35px;
@@ -135,14 +135,14 @@ header {
 
 footer {
   background-color: $colore-navbar;
-  color:$colore-testo;
+  color: $colore-testo;
   padding: 5px 0;
   text-align: center;
   width: 100%;
   bottom: 0;
 
   a {
-    color:$colore-testo;
+    color: $colore-testo;
     margin: 0 10px;
     text-decoration: none;
   }
