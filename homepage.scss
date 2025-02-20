@@ -1,10 +1,4 @@
-$colore-navbar: #20242d;
-$colore-header1: #1E292E;
-$colore-header2: #30323F;
-$colore-header3: #1E2931;
-$colore-testo: white;
-$colore-primario: #bf504f;
-$font-testo: "Lato", serif;
+@import 'variabiliScss';
 
 
 * {
@@ -35,13 +29,6 @@ body {
 
     &:hover {
       color: $colore-primario;
-    }
-
-    &.portfolio {
-      color: $colore-testo;
-      font-weight: bold;
-      font-size: 25px;
-      margin-left: -1000px;
     }
   }
 }

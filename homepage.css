@@ -27,12 +27,6 @@ body {
 .navbar a:hover {
   color: #bf504f;
 }
-.navbar a.portfolio {
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-  margin-left: -1000px;
-}
 
 .navbarLinks {
   display: flex;
@@ -117,14 +111,14 @@ header {
 
 footer {
   background-color: #20242d;
-  color: #fff;
+  color: white;
   padding: 5px 0;
   text-align: center;
   width: 100%;
   bottom: 0;
 }
 footer a {
-  color: #fff;
+  color: white;
   margin: 0 10px;
   text-decoration: none;
 }
