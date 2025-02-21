@@ -3,8 +3,6 @@ import { progetti } from "./datiProgetti.js";
 export function inserisciProgetti(): void {
   const sezioneProgetti = document.getElementById("progetti");
 
-
-
   if (sezioneProgetti) {
     progetti.forEach(progetto => {
       const div = document.createElement("div")
@@ -44,7 +42,7 @@ export function inserisciProgetti(): void {
       sezioneProgetti.appendChild(div);
     });
   } else {
-    console.log("Id non trovato!");
+   console.error("Id non trovato!");
   }
 }
 

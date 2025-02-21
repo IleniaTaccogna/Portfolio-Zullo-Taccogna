@@ -33,6 +33,6 @@ export function inserisciProgetti() {
         });
     }
     else {
-        console.log("Id non trovato!");
+        console.error("Id non trovato!");
     }
 }
