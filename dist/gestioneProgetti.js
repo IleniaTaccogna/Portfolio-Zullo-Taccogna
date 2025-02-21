@@ -32,4 +32,7 @@ export function inserisciProgetti() {
             sezioneProgetti.appendChild(div);
         });
     }
+    else {
+        console.log("Id non trovato!");
+    }
 }
