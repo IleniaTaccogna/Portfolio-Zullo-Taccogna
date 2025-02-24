@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
   <title>Portfolio</title>
-  <link rel="icon" type="image/png" href="/assets/cv.png"/>
+  <link rel="icon" type="image/png" href="/assets/cv.png" />
 </head>
 
 <body>
@@ -33,24 +35,38 @@
   <!-- Form -->
   <section>
     <h1>Contattaci!</h1>
-    <form class="container-form">
+    <form id="contactForm" class="container-form">
       <div class="form-group">
         <label for="exampleInputName">Inserisci il Nome</label>
-        <input type="text" class="form-control" placeholder="Inserisci il nome">
+        <input type="text" id="exampleInputName" name="nome" class="form-control" placeholder="Inserisci il nome">
       </div>
       <div class="form-group">
-        <label for="exampleInputEmail1">Inserisci l'email</label>
-        <input type="email" class="form-control" placeholder="Inserisci l'email">
+        <label for="exampleInputEmail">Inserisci l'email</label>
+        <input type="email" id="exampleInputEmail" name="email" class="form-control" placeholder="Inserisci l'email">
       </div>
       <div class="form-group">
         <label for="exampleMessage">Inserisci il tuo Messaggio</label>
-        <textarea></textarea>
+        <textarea id="exampleMessage" name="messaggio" class="form-control"
+          placeholder="Inserisci il messaggio"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary" onclick="alert('Messaggio inviato!')">Invia</button>
+      <button type="submit" class="btn btn-primary">Invia</button>
     </form>
+
   </section>
   <!-- Fine Form-->
-  
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Messaggio</th>
+      </tr>
+    </thead>
+    <tbody id="contactsTableBody">
+    </tbody>
+  </table>
+
 
   <!-- Footer -->
   <footer class="footer">
@@ -59,17 +75,19 @@
     <img src="/assets/MoMaVet_IFOA-scaled-removebg-preview.png" class="logoIFOA" />
     <img src="/assets/logo_code-architects_positive.png" class="logoCA" />
     <div class="icone">
-        <a href="https://www.facebook.com/CodeArchitectsItalia/"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-xl"
-                style="color: #bf504f;"></i></a>
-        <a href="https://it.linkedin.com/company/code-architects"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-xl"
-                style="color:#bf504f;"></i></a>
-        <a href="https://www.instagram.com/codearchitectsitalia/#"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-xl"
-                style="color: #bf504f;"></i></a>
+      <a href="https://www.facebook.com/CodeArchitectsItalia/" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-facebook fa-xl" style="color: #bf504f;"></i></a>
+      <a href="https://it.linkedin.com/company/code-architects" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-linkedin fa-xl" style="color:#bf504f;"></i></a>
+      <a href="https://www.instagram.com/codearchitectsitalia/#" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-instagram fa-xl" style="color: #bf504f;"></i></a>
     </div>
     <p class="policy"><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service"
-            style="color: #fff; text-decoration: none;">Termini di Servizio</a></p>
-</footer>
+        style="color: #fff; text-decoration: none;">Termini di Servizio</a></p>
+  </footer>
   <!-- Fine Footer -->
+
+  <script type="module" src="/dist/gestioneContactForm.js"></script>
 </body>
 
 </html>
